@@ -7,14 +7,14 @@ import java.util.ArrayList;
  */
 public class Banker {
 
-    public Banker(Player player1, Player player2, suit)
+    public Banker(Player player1, Player player2, ArrayList<Card>)
     {
         this.player1 = player1;
         this.player2 = player2;
-
+        ArrayList<Card> = DiamondSet;
     }
 
-
+    ArrayList<Card>  DiamondSuiteSet = new ArrayList<>();
 
     public int getbid(int firstplayerBid, int secondplayerBid)
     {
