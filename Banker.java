@@ -11,9 +11,10 @@ public class Banker {
     {
         this.player1 = player1;
         this.player2 = player2;
-
+        suit = SUIT.diamondSuit;
     }
 
+    ArrayList<Card>  DiamondSuiteSet = new ArrayList<>();
 
 
     public int getbid(int firstplayerBid, int secondplayerBid)
